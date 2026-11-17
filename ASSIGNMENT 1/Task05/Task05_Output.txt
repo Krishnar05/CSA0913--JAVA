@@ -1,0 +1,8 @@
+[Static Init]: Ticket class loaded. Sequence counter initialized.
+=== Task 05: Static Members & Object Life Cycle ===
+Ticket #1001 for TN01AA1111
+Ticket #1002 for TN02BB2222
+Ticket #1003 for TN03CC3333
+Total Tickets Issued via static method: 3
+Processing checkout for: Ticket #1001 for TN01AA1111
+t1 reference set to null. Object now eligible for Garbage Collection.
