@@ -1,0 +1,6 @@
+=== Task 09: Abstraction & Interface Demonstration ===
+EV Vehicle: TN07EV8888
+Parking Fee (90 mins -> 2 hrs @ Rs 30/hr): Rs 60.0
+Charging Fee (15 kWh @ Rs 12/kWh + 5% cess): Rs 189.0
+Total Amount Due: Rs 249.0
+Interface Default Method: Dispensed 15 kWh energy via smart grid terminal.
