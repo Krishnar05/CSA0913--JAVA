@@ -1,0 +1,10 @@
+=== Task 02: Data Representation & Precision Analysis ===
+Jagged Array Floors Initialized: 3 floors.
+  Floor 0 capacity: 2 slots.
+  Floor 1 capacity: 3 slots.
+  Floor 2 capacity: 1 slots.
+
+--- Precision Loss & Casting Comparison (Duration: 65 mins) ---
+Flawed Integer Division (minutes / 60): 1 hrs -> Rs 30.0 (WRONG - underbilled!)
+Correct Integer Arithmetic ((minutes + 59) / 60): 2 hrs -> Rs 60.0 (CORRECT)
+Math.ceil Float Division ((int) Math.ceil(minutes / 60.0)): 2 hrs -> Rs 60.0 (CORRECT)
