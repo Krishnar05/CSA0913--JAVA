@@ -1,0 +1,5 @@
+=== Task 04: Constructor and Object Creation Demo ===
+t1 (Full Parameterized): Ticket #1001 [RegNo=TN01AB1111, Floor=0, Slot=1, Entry=45m, Pass=true]
+t2 (Chained Overload):   Ticket #1002 [RegNo=TN02CD2222, Floor=1, Slot=0, Entry=0m, Pass=false]
+t1Duplicate (Copy Ctor): Ticket #1001 [RegNo=TN01AB1111, Floor=0, Slot=1, Entry=45m, Pass=true]
+Are references identical? false (Independent heap instances)
