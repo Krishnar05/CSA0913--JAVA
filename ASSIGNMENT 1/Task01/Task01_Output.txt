@@ -1,0 +1,5 @@
+=== Task 01: Candidate Domain Model Verification ===
+Slot initial free status: true
+Parked vehicle: TN01AA1111 (Rate: Rs 10.0/hr)
+Slot free status after parking: false
+Slot vacated successfully. Free status: true
