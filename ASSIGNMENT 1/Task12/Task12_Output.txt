@@ -1,0 +1,23 @@
+==================================================================
+   TASK 12: DAY-4 DESIGN CHALLENGE — ADAPTED PARKING SYSTEM       
+==================================================================
+Extended Facility Initialized:
+  Total Floors:   5
+  Floor Layout:   [20, 30, 40, 50, 60]
+  Total Capacity: 200 slots across 5 floors.
+
+--- 2. E-Bike Flat Rate Test ---
+EBike (45 mins stay):  Rs 15.0 (Flat Rate - Correct)
+EBike (360 mins stay): Rs 15.0 (Flat Rate - Correct)
+
+--- 3. Delivery Van Dynamic Pricing Test ---
+Van Peak (Entry 10 AM, 2 hrs @ Rs 60/hr): Rs 120.0
+Van Off-Peak (Entry 8 PM, 2 hrs @ Rs 30/hr): Rs 60.0
+
+--- 4. Visitor One-Day Pass Test ---
+OneDayPass Issued. Cost: Rs 150.0
+Pass Validity Status:      true
+
+--- 5. Allocation in 5-Floor Facility ---
+EBike allocated slot: [0, 0]
+Van allocated slot:   [0, 1]
