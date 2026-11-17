@@ -1,0 +1,10 @@
+=== Task 07: Method Overriding & Object Contract Demo ===
+v1: Car{regNo='TN09AZ9999'}
+v2: Car{regNo='TN09AZ9999'}
+Reference equality (v1 == v2): false
+Semantic equality (v1.equals(v2)): true (Both represent same plate)
+HashCodes equal? true
+
+Fee for 75 mins parking:
+Car fee: Rs 60.0
+Bike fee: Rs 20.0
