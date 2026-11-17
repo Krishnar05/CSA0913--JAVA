@@ -1,0 +1,9 @@
+=== Task 10: Encapsulation & Validation Demo ===
+Created: Ticket #2001 [TN01AB1234] Duration: 0 mins
+Updated: Ticket #2001 [TN01AB1234] Duration: 90 mins
+Attempting to set negative duration (-30 mins)...
+Caught Expected Security Exception: Validation Error: Duration cannot be negative (-30).
+
+--- Wrapper Autoboxing Comparison (id=500) ---
+idA == idB: false (Reference check fails outside cache -128..127)
+idA.equals(idB): true (Value check succeeds)
