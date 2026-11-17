@@ -1,0 +1,6 @@
+=== Task 06: Inheritance & Constructor Tracing Demo ===
+Creating ElectricCar instance 'TN03EV9999'...
+  [1] Vehicle constructor executing for: TN03EV9999
+  [2] Car constructor executing for: TN03EV9999
+  [3] ElectricCar constructor executing for: TN03EV9999
+Object successfully created. Plate: TN03EV9999, Rate: Rs 30.0/hr
