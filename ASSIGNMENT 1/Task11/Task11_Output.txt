@@ -1,0 +1,29 @@
+============================================================
+   CAMPUS SMART-PARKING SYSTEM: INTEGRATED TEST SUITE       
+============================================================
+
+--- 1. Normal Allocations ---
+Allocated v1 (TwoWheeler): [0, 0]
+Allocated v2 (Car):        [0, 1]
+Allocated v3 (ElectricCar):[1, 0]
+
+--- 2. Boundary Cases (Capacity Limits) ---
+Allocated v4 (Last slot):  [1, 1]
+Allocated v5 (When full):  null (Facility Full - Correct)
+
+--- 3. Invalid & Edge Cases ---
+  [Error]: Vehicle TN02BB2222 is already parked in facility!
+Duplicate entry result:    Rejected (Correct)
+Release valid slot {0,1}:  true
+Release same slot again:   false (Correctly rejected)
+Release invalid slot {5,0}:false (Correctly rejected)
+
+--- 4. Hand-Calculated Financial Reconciliation ---
+Vehicle 1 (Bike, 75 mins):   Rs 20.0
+Vehicle 2 (Car, 60 mins):    Rs 30.0
+Vehicle 3 (EV, 130m + 15kWh):Rs 270.0
+Vehicle 4 (Pass Holder Car): Rs 0.0
+----------------------------------------------
+Total Actual System Collection: Rs 320.0
+Expected Hand-Calculated Value: Rs 320.0
+Audit Reconciliation Result:    MATCH (100% RECONCILED)
